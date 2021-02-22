@@ -1,9 +1,13 @@
+html, body{
+  height:100%;
+ }
 body{
 
-  background: #FA780F;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right bottom, #FA780F, #4AB303,#1493D6);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right bottom, #FA780F, #4AB303,#1493D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
-
+  background: red;
+  background: -webkit-linear-gradient(rgb(0, 130, 206), white);
+  background: -o-linear-gradient(rgb(0, 130, 206), white);
+  background: -moz-linear-gradient(rgb(0, 130, 206), white);
+  background: linear-gradient(rgb(0, 130, 206)), white);
 }
 
 .logo{

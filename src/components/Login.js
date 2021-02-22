@@ -48,7 +48,7 @@ export function Registrar(){
           const confirm = Swal.getPopup().querySelector('#confirm').value
           if (!confirm || !password) {
             Swal.showValidationMessage(`Please enter login and password`);
-          }else if (password != confirm){
+          }else if (password !== confirm){
             Swal.showValidationMessage(`Contraseñas no coinciden`);
           }
           return { confirm: confirm, password: password }
